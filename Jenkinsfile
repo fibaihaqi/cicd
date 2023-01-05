@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Hello World from Github updated #3'
+        echo 'Hello World from Github updated #4'
       }
     }
   }
