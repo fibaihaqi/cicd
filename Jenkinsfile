@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Hello World from Github updated #5'
+        echo 'Hello World from Github updated #every minutes'
       }
     }
   }
