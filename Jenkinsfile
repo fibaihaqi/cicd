@@ -6,5 +6,6 @@ pipeline {
       steps {
         echo 'Hello World from Github'
       }
+    }
   }
 }
