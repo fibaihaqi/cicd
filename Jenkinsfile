@@ -4,7 +4,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Hello World from Github updated #every minutes'
+        echo 'Pull changes'
+        git 'https://github.com/fibaihaqi/cicd.git'
+        sh './mvnw clean compile'
       }
     }
   }
