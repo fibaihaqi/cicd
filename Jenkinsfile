@@ -6,7 +6,7 @@ pipeline {
       steps {
         echo 'Pull changes'
         git 'https://github.com/fibaihaqi/cicd.git'
-        sh './mvnw clean compile'
+        sh 'mvn clean compile'
       }
     }
   }
